@@ -116,7 +116,6 @@ config.json
 *.ps1
 
 # 忽略所有 .md 文件
-*.md
 
 picgo
 

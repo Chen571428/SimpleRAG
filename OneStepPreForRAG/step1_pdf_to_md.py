@@ -51,7 +51,7 @@ def convert_pdf_to_md(input_dir: str, output_dir: str, converter='marker', proce
                 
                 if converter == 'marker':
                     command = [
-                        'conda', 'run', '--no-capture-output', '-n', 'pdf2md',
+                        'conda', 'run', '--no-capture-output', '-n', 'SimpleRAG',
                         'marker_single',
                         str(pdf_file),
                         '--output_dir', str(output_path),
