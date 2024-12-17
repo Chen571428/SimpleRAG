@@ -1,0 +1,11 @@
+{
+    "picgo": {
+        "endpoint": "http://127.0.0.1:36677"
+    },
+    "alioss": {
+        "access_key_id": "your_access_key_id",
+        "access_key_secret": "your_access_key_secret",
+        "endpoint": "your_endpoint",
+        "bucket": "your_bucket_name"
+    }
+} 
